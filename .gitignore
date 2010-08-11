@@ -1,0 +1,12 @@
+*.user
+*.ncb
+*.nlb
+*.suo
+*.aps
+*.clw
+*.pdb
+*\Debug
+*\Release
+*\ipch
+*.exe
+*.dll
