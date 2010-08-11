@@ -285,8 +285,10 @@ void HookThread::Execute(void * data) {
 				apmOptions = LoadAPMAlertOptions();
 				if(pApmFont != NULL) pApmFont->Release();
 				if(pClockFont != NULL) pClockFont->Release();
+				if(pLine != NULL) pLine->Release();
 				pApmFont = NULL;
 				pClockFont = NULL;
+				pLine = NULL;
 				initializeAPMCalculator();
 				minPassed = false;
 				WriteHooks();
